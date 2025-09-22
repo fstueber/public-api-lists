@@ -9,6 +9,13 @@ A collective list of free APIs for use in software and web development.
 
 For information on contributing to this project, please see the [contributing guide](.github/CONTRIBUTING.md).
 
+## ✨ Sponsors
+
+[![SerpApi - Real-Time Search API](assets/serpapi.png)](https://serpapi.com/?utm_source=public-api-lists)
+
+**[SerpApi - Search API](https://serpapi.com/?utm_source=public-api-lists): Scrape Google and other search engines with a simple API.**
+
+
 ## Index
 
 - [Public API Lists](#public-api-lists)
@@ -100,16 +107,16 @@ For information on contributing to this project, please see the [contributing gu
 
 ### Anti-Malware
 
-|                                  API                                  | Description                                                                                                                    |                   Auth                    |  HTTPS   |  CORS   |
-| :-------------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------ | :---------------------------------------: | :------: | :-----: | --- |
-|               [AbuseIPDB](https://docs.abuseipdb.com/)                | IP/domain/URL reputation                                                                                                       |                 `apiKey`                  |   Yes    | Unknown |
-|               [Dymo API](https://dymo.tpeoficial.com/)                | Multi-account and fraud detection.                                                                                             | Sending emails without ending up in SPAM. | `apiKey` |   Yes   | Yes |
-|                   [FishFish](https://fishfish.gg/)                    | A volunteer cybersecurity project focused on providing resources and services that improve safety across Discord               |                    No                     |   Yes    | Unknown |
-| [Google Safe Browsing](https://developers.google.com/safe-browsing/)  | Google Link/Domain Flagging                                                                                                    |                 `apiKey`                  |   Yes    | Unknown |
-|                   [Metacert](https://metacert.com/)                   | Metacert Link Flagging                                                                                                         |                 `apiKey`                  |   Yes    | Unknown |
-|              [phish.directory](https://phish.directory/)              | API for phish.directory, a community-driven anti-phishing tool. Helping catch, prevent, and catalog phishing links & attempts. |                 `apiKey`                  |   Yes    | Unknown |
-| [VirusTotal](https://www.virustotal.com/en/documentation/public-api/) | VirusTotal File/URL Analysis                                                                                                   |                 `apiKey`                  |   Yes    | Unknown |
-|        [Web Of Trust (WOT)](https://www.mywot.com/developers/)        | Website reputation                                                                                                             |                 `apiKey`                  |   Yes    | Unknown |
+|                                  API                                  | Description                                                                                                                    |   Auth   | HTTPS |  CORS   |
+| :-------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------- | :------: | :---: | :-----: |
+|               [AbuseIPDB](https://docs.abuseipdb.com/)                | IP/domain/URL reputation                                                                                                       | `apiKey` |  Yes  | Unknown |
+|               [Dymo API](https://dymo.tpeoficial.com/)                | Multi-account and fraud detection. Sending emails without ending up in SPAM.                                                   | `apiKey` |  Yes  |   Yes   |
+|                   [FishFish](https://fishfish.gg/)                    | A volunteer cybersecurity project focused on providing resources and services that improve safety across Discord               |    No    |  Yes  | Unknown |
+|   [Google Safe Browse](https://developers.google.com/safe-Browse/)    | Google Link/Domain Flagging                                                                                                    | `apiKey` |  Yes  | Unknown |
+|                   [Metacert](https://metacert.com/)                   | Metacert Link Flagging                                                                                                         | `apiKey` |  Yes  | Unknown |
+|              [phish.directory](https://phish.directory/)              | API for phish.directory, a community-driven anti-phishing tool. Helping catch, prevent, and catalog phishing links & attempts. | `apiKey` |  Yes  | Unknown |
+| [VirusTotal](https://www.virustotal.com/en/documentation/public-api/) | VirusTotal File/URL Analysis                                                                                                   | `apiKey` |  Yes  | Unknown |
+|        [Web Of Trust (WOT)](https://www.mywot.com/developers/)        | Website reputation                                                                                                             | `apiKey` |  Yes  | Unknown |
 
 **[⬆ Back to Index](#index)**
 
@@ -180,7 +187,7 @@ For information on contributing to this project, please see the [contributing gu
 |                       [Nager.Date](https://date.nager.at)                       | Public holidays for more than 90 countries                                                             |    No    |  Yes  |   No    |
 |                  [Namedays Calendar](https://api.abalin.net/)                   | Provides namedays for multiple countries                                                               |    No    |  Yes  |   Yes   |
 |               [Non-Working Days](https://github.com/gadael/icsdb)               | Database of ICS files for non working days                                                             |    No    |  Yes  | Unknown |
-|              [OpenHolidays API](https://www.openholidaysapi.org/)               | Public and school holidays for many countries via an open REST API                                     |    No    |  Yes  | Yes   |
+|              [OpenHolidays API](https://www.openholidaysapi.org/)               | Public and school holidays for many countries via an open REST API                                     |    No    |  Yes  |   Yes   |
 |            [Russian Calendar](https://github.com/egno/work-calendar)            | Check if a date is a Russian holiday or not                                                            |    No    |  Yes  |   No    |
 |      [TimeZones iCal Library](https://tz.add-to-calendar-technology.com/)       | Database of official time zones and corresponding iCal VTIMEZONE blocks                                |    No    |  Yes  | Unknown |
 
@@ -352,10 +359,9 @@ For information on contributing to this project, please see the [contributing gu
 |         [Image to Link](https://www.contentful.com/developers/docs/references/images-api/)          | Generate link from image(Integration developer utility APIs)                                        |       No        |  Yes  |   Yes   |
 |                                  [IPFinder](https://ipfinder.io/)                                   | Geolocation API,ASN API,IP Ranges API,IP Firewall API,Domain API                                    |    `apiKey`     |  Yes  |   Yes   |
 |                                 [Scraper.run](https://scraper.run/)                                 | Geolocation API,lookup DNS & whois record of a domain                                               |       No        |  Yes  |   Yes   |
-|                               [SearchApi](https://www.searchapi.io/)                                | Real-time search engines SERP API                                                                   |    `apiKey`     |  Yes  |   No    |
-|                                   [SerpApi](https://serpapi.com/)                                   | Scrape Google and other search engines                                                              |    `apiKey`     |  Yes  |   No    |
-|                               [v.recipes DNS Accelerator](https://v.recipes/dns/)                               | The Accelerator variant can be used to test & accelerate any DoH providers                          |       No        |  Yes  |   No    |
-|                                [v.recipes Get IP](https://v.recipes/get-ip)                                 | A simple API to get information such as IP, ISP name, Location, etc. based on user request          |       No        |  Yes  |   No    |
+|                                   [SerpApi](https://serpapi.com/)                                   | Scrape Google and other search engines with a simple API.                                                              |    `apiKey`     |  Yes  |   No    |
+|                         [v.recipes DNS Accelerator](https://v.recipes/dns/)                         | The Accelerator variant can be used to test & accelerate any DoH providers                          |       No        |  Yes  |   No    |
+|                            [v.recipes Get IP](https://v.recipes/get-ip)                             | A simple API to get information such as IP, ISP name, Location, etc. based on user request          |       No        |  Yes  |   No    |
 |                             [WebCrawlerAPI](https://webcrawlerapi.com/)                             | Easily extract content from websites                                                                |    `apiKey`     |  Yes  |   Yes   |
 |                                     [Zuplo](https://zuplo.com/)                                     | API platform for Development, Deployment, and Docs - add auth, rate-limiting, and monetization fast |    `apiKey`     |  Yes  |   Yes   |
 
@@ -587,6 +593,7 @@ For information on contributing to this project, please see the [contributing gu
 |                                            [ipstack](https://ipstack.com/)                                             | Locate and identify website visitors by IP address                                                                 |    `apiKey`    |  Yes  | Unknown |
 |                                      [ipgeolocation](https://ipgeolocation.com/)                                       | Find geolocation of any IP address with IP Geolocation API                                                         |    `apiKey`    |  Yes  |   Yes   |
 |                                          [IsItWater](https://IsItWater.com/)                                           | A free API to determine if a lat/lon is on water or land                                                           | `rapidapi-key` |  Yes  |   Yes   |
+|                               [ISO 3166-2 API](https://iso3166-2-api.vercel.app/api)                                   | Access all of the world's subdivision/regional ISO 3166-2 codes                                                    |       No       |  Yes  | Unknown |
 |                          [Airtel IP](https://aether.epias.ltd/ip2country/1.1.1.1/?full=true)                           | IP Geolocation API. Collecting data from multiple sources                                                          |       No       |  Yes  | Unknown |
 |                                       [LocationIQ](https://locationiq.org/docs/)                                       | Provides forward/reverse geocoding and batch geocoding                                                             |    `apiKey`    |  Yes  |   Yes   |
 |                                      [Mapbox](https://www.mapbox.com/developers/)                                      | Create/customize beautiful digital maps                                                                            |    `apiKey`    |  Yes  | Unknown |
@@ -1120,6 +1127,7 @@ For information on contributing to this project, please see the [contributing gu
 |                    [Owen Wilson Wow](https://owen-wilson-wow-api.onrender.com/)                    | API for actor Owen Wilson's "wow" exclamations in movies                                                         |    No    |  Yes  |   Yes   |
 |                                 [Potter DB](https://potterdb.com)                                  | Data from the Harry Potter Universe: Characters, Movies, Books, Spells and Potions                               |    No    |  Yes  | Unknown |
 | [Ron Swanson Quotes](https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api) | Television                                                                                                       |    No    |  Yes  | Unknown |
+|                                 [Rendi](https://rendi.dev/)                                        | FFmpeg API                                                                                                       | `apiKey` |  Yes  | Unknown |
 |                             [Shrek Quotes](https://shrekofficial.com)                              | Shrek quotes and more, but mainly quotes                                                                         |    No    |  Yes  |   Yes   |
 |               [South Park Quotes](https://github.com/Thatskat/southpark-quotes-api)                | A pretty simple API to let you retrieve some of the best quotes from South Park, mmkay!                          |    No    |  Yes  |   Yes   |
 |                                     [STAPI](https://stapi.co)                                      | Information on all things Star Trek                                                                              |    No    |  Yes  |   Yes   |
